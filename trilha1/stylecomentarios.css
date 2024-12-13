@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1 {
+    color: black;
+    text-align:center;
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+p {
+    color:white;
+}
+footer {
+    color: beige;
+    font-size: 12px;
+}
+div{
+    background-image: url(imagens/comentario.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center; /* Centraliza a imagem */
+    height: 70vh; /* Altura da tela toda */
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    font-size: 3rem; /* Tamanho do texto */
+    text-align: center;   
+}
